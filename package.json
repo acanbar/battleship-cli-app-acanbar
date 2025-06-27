@@ -1,0 +1,16 @@
+{
+  "name": "battleship-cli-app-acanbar",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "type": "module",
+  "main": "board.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.6.3"
+  }
+}
