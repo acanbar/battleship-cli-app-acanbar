@@ -194,13 +194,15 @@ console.table({
   C: ["-", "-", "-"],
 }); // go ahead and try copying and pasting this into a script and testing it out for yourself <3
 ```
-*note: an exclamation mark means that you've missed that cell, both for debug mode and regular mode*
+
+_note: an exclamation mark means that you've missed that cell, both for debug mode and regular mode_
 
 But if we call `printBoard(board, true)`, then we should see this:
 
 ![revealed-3x3.png](./images/revealed-3x3.png)
 
-Now as developers, we can get a much better gauge of what is going on later when we get to the harder parts of building this (which will be all you). I strongly strongly strongly recommend that you do a good job at this part before moving forward, if you don't then debugging will be very hard.
+Now as developers, we can get a much better gauge of what is going on later when we get to the harder parts of building this (which will be\
+ all you). I strongly strongly strongly recommend that you do a good job at this part before moving forward, if you don't then debugging will be very hard.
 
 One way of checking your work is, create a file called messaround.js (or ts if you like), and just manually check that the board is printing correct for different states, if you're feeling really extra you can even ask an instructor how to set up proper testing for something like this:
 
@@ -262,17 +264,20 @@ When you first run your terminal game you should be greeted with the following t
 ### How many Ships Per Board Size
 
 4X4:
- - [ ] 1 large
- - [ ] 1 small
 
-5X5 
- - [ ] 1 large
- - [ ] 2 small
+- [ ] 1 large
+- [ ] 1 small
+
+5X5
+
+- [ ] 1 large
+- [ ] 2 small
 
 6X6
- - [ ] 2 large
- - [ ] 2 small
- 
+
+- [ ] 2 large
+- [ ] 2 small
+
 ### Greeting Menu
 
 ```txt
@@ -310,9 +315,7 @@ choose a Board Size
 - [ ] Each Turn we should see this screen:
   - [ ] The board is printed
   - [ ] Underneath we can see `Make a guess eg.. A1, B2, etc...`
-        
         ![full-guess-screen.png](./images/full-guess-screen.png)
-        
 - [ ] In between guesses, you should clear the console so that way you are only looking at the fresh information and not the information from the previous turn. This can be accomplished with...
 
 ```js
