@@ -1,4 +1,5 @@
 import inquirer from "inquirer";
+import { printBoard } from "./printBoard.js";
 
 function createBoard(size) {
   const board = [];
@@ -44,6 +45,6 @@ const chooseBoard = async () => {
   console.log("You selected:", playerAnswer.boardSize);
   const board = createBoard(size);
   console.log("Board created:");
-  console.table(board);
+  printBoard(board, true);
 };
 chooseBoard();
